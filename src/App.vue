@@ -1,17 +1,25 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="d-flex flex-column">
+    <header-view />
+    <navigation-view />
+    <content-view />
+    <footer-view />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import headerView from './components/headerView.vue';
+import contentView from './components/contentView.vue';
+import footerView from './components/footerView.vue';
+import navigationView from './components/navigationView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    headerView,
+    contentView,
+    footerView,
+    navigationView
   }
 }
 </script>
