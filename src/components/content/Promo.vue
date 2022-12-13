@@ -79,7 +79,8 @@ export default {
 
   @media(max-width: 768px) {
     .promo {
-      background-position-y: 400px;
+      background: none;
+      height: auto;
     }
 
     .promo-wrapper {
@@ -92,6 +93,14 @@ export default {
       position: relative;
       top: -80px;
       margin: 0 auto;
+    }
+  }
+
+  @media(max-width: 425px) {
+    .promo-wrapper {
+      position: relative;
+      top: 0;
+      text-align: center;
     }
   }
 </style>

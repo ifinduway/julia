@@ -87,5 +87,17 @@ export default {
     color: rgb(226, 35, 98);
     font-weight: bold;
   }
+
+  @media(max-width: 425px) {
+    .services {
+      padding: 50px;
+    }
+
+    .services-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 </style>
     

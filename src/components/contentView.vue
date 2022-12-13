@@ -36,6 +36,7 @@
       <template v-slot:title>ЮЛИЯ АРТУРОВНА</template>
       <template v-slot:subtitle>ДИРЕКТОР НАШЕГО КЛУБА</template>
     </personal-block>
+    <feed-back />
   </div>
 </template>
 
@@ -45,6 +46,7 @@ import ServicesBlock from '@/components/content/ServicesBlock.vue';
 import BaseButton from './UI/BaseButton.vue';
 import PopupButton from './UI/PopupButton.vue';
 import PersonalBlock from '@/components/content/PersonalBlock.vue';
+import FeedBack from '@/components/content/FeedBack.vue';
 
 export default {
   name: 'contentView',
@@ -55,6 +57,7 @@ export default {
     ServicesBlock,
     PopupButton,
     PersonalBlock,
+    FeedBack
   },
 
   data: () => ({
@@ -146,6 +149,7 @@ export default {
   }
 
   .schedule {
+    padding: 100px 0 !important;
     color: #fff;
     background-color: #97c455;
     display: flex;
@@ -181,9 +185,23 @@ export default {
       height: 15px;
       left: -30px;
     }
-    
+  }
+
+  @media(max-width: 425px) {   
     .content__block {
-      padding: 0;
+      padding: 30px 0;
+    }
+
+    .about {
+      padding: 30px;
+    }
+
+    .about h2 {
+      font-size: 30px;
+    }
+
+    .about div {
+      font-size: 20px;
     }
   }
 </style>

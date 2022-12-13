@@ -41,7 +41,6 @@ export default {
 <style>
  .button {
   border-radius: 50px;
-  background-color: #e22362;
   display: flex;
   color: #fff;
   justify-content: center;
@@ -51,7 +50,7 @@ export default {
  }
 
  .button:hover {
-  background-color: #97c455;
+  background-color: #97c455 !important;
   transition-property: background-color;
   transition-duration: 0.30s;
   transition-delay: 0;

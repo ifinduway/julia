@@ -54,5 +54,11 @@ export default {
     height: 200px;
     margin-bottom: 30px;
   }
+
+  @media(max-width: 425px) {
+    .base-card {
+      margin: 10px;
+    }
+  }
 </style>
     

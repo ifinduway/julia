@@ -52,6 +52,7 @@ export default {
     background-color: rgba(3, 3, 3, 0.5);
     justify-content: center;
     align-items: center;
+    z-index: 10000;
   }
 
   .popup-container {

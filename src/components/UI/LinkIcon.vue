@@ -34,5 +34,11 @@ export default {
     50% {transform:translateY(10px);animation-timing-function:ease-in-out;}
     100% {transform:translateY(0px);}
   }
+
+  @media(max-width:425px) {
+    .link-icon {
+      display: none;
+    }
+  }
 </style>
   
