@@ -1,5 +1,5 @@
 <template>
-  <div class="button" :style="style">
+  <div class="button" :style="style" v-scroll-to="href">
     <slot />
   </div>
 </template>
@@ -14,20 +14,25 @@ export default {
       default: '300px',
     },
 
-  height: {
-    type: String,
-    default: '70px',
-  },
+    height: {
+      type: String,
+      default: '70px',
+    },
 
-  border: {
-    type: String,
-    default: 'none',
-  },
+    border: {
+      type: String,
+      default: 'none',
+    },
 
-  background: {
-    type: String,
-    default: '#e22362',
-  },
+    background: {
+      type: String,
+      default: '#e22362',
+    },
+
+    href: {
+      type: String,
+      default: null
+    }
   },
 
   computed: {

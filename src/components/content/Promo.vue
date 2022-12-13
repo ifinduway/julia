@@ -5,7 +5,7 @@
         <h1>ШКОЛА КРАСИВОЙ РЕЧИ</h1>
         <span>ШКОЛА ЮЛИИ БИЗНЕСВУМЕН</span>
       </div>
-      <base-button>Записаться</base-button>
+      <base-button :href="'#feedback'">Записаться</base-button>
 
       <link-icon style="margin: 0 auto" :blockID="'#feedback'"/>
     </div>

@@ -9,7 +9,7 @@
         <div class="item">СОБСТВЕННЫЕ ПРОГРАММЫ МЕЖДУНАРОДНОГО УРОВНЯ</div>
         <div class="item">КАЧЕСТВЕННЫЙ СЕРВИС</div>
       </div>
-      <base-button style="margin: 0 auto">Записаться</base-button>
+      <base-button :href="'#feedback'" style="margin: 0 auto">Записаться</base-button>
     </div>
     <div class="content__block about">
       <h2>МЫ РАДЫ ВИДЕТЬ В НАШЕЙ ШКОЛЕ ДЕТЕЙ ОТ 9 МЕСЯЦЕВ ДО 10 ЛЕТ</h2>
@@ -202,6 +202,11 @@ export default {
 
     .about div {
       font-size: 20px;
+    }
+
+    .block__items {
+      width: 300px;
+      margin: 40px auto;
     }
   }
 </style>

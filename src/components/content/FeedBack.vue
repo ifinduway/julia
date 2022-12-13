@@ -1,5 +1,5 @@
 <template>
-  <div class="container feedback">
+  <div class="container feedback" id="feedback">
     <h2>ЗАПИШИСЬ НА ПРОБНОЕ ЗАНЯТИЕ (ДЕНЬГИ ТОЛЬКО ПЛАТИТЬ НАДА БУДЕТ &#128516;)</h2>
     <form class="feedback-form" @submit.prevent="">
       <base-input :mask="'####-####'" :placeholder="'Промокод'" v-model="promoCode"/>
