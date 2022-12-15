@@ -1,7 +1,5 @@
 <template>
-  <div class="button" :style="style" v-scroll-to="href">
-    <slot />
-  </div>
+  <input type="submit" class="button" :style="style" v-scroll-to="href" value="ОТПРАВИТЬ">
 </template>
 
 <script>
@@ -53,12 +51,18 @@ export default {
   font-size: 20px;
   cursor: pointer;
  }
-
+ 
  .button:hover {
   background-color: #97c455 !important;
   transition-property: background-color;
   transition-duration: 0.30s;
   transition-delay: 0;
  }
+
+ .button__disabled {
+  background-color: #333 !important;
+  color: #fff;
+ }
+
 </style>
     
