@@ -1,9 +1,11 @@
 <template>
   <div class="d-flex flex-column">
-    <header-view />
-    <navigation-view />
-    <content-view />
-    <footer-view />
+    <div class="kek">
+      <header-view />
+      <navigation-view />
+      <content-view />
+      <footer-view />
+    </div>
   </div>
 </template>
 
@@ -11,7 +13,7 @@
 import headerView from './components/headerView.vue';
 import contentView from './components/contentView.vue';
 import footerView from './components/footerView.vue';
-import navigationView from './components/navigationView.vue'
+import navigationView from './components/navigationView.vue';
 
 export default {
   name: 'App',
@@ -19,8 +21,20 @@ export default {
     headerView,
     contentView,
     footerView,
-    navigationView
-  }
+    navigationView,
+  },
+
+  data: () => ({
+    select: null,
+    options: ['Option 1', 'Option 2', 'Option 3'],
+    selectedOption: 'Option 1'
+  }),
+
+  methods: {
+    handleInput(newOption) {
+      this.selectedOption = newOption
+    }
+  },
 }
 </script>
 
@@ -33,4 +47,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>

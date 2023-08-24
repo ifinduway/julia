@@ -2,7 +2,7 @@
   <div class="container feedback" id="feedback">
     <h2>ЗАПИШИСЬ НА ПРОБНОЕ ЗАНЯТИЕ (ДЕНЬГИ ТОЛЬКО ПЛАТИТЬ НАДА БУДЕТ &#128516;)</h2>
     <form class="feedback-form" @click.prevent="sendMessage">
-      <base-input :mask="'####-####'" :placeholder="'Промокод'" v-model="promoCode"/>
+      <base-input rulesType="text" :mask="'####-####'" :placeholder="'Промокод'" v-model="promoCode"/>
       <base-input :placeholder="'Имя ребенка'" v-model="childName"/>
       <base-input type="number" :placeholder="'Возраст ребенка'" v-model="age"/>
       <base-input :placeholder="'Имя родителя'" v-model="parentName"/>
@@ -23,7 +23,7 @@ export default {
 
   components: {
     BaseInput,
-    BaseButton
+    BaseButton,
   },
 
   data() {

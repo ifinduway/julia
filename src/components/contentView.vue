@@ -205,7 +205,7 @@ export default {
     }
 
     .block__items {
-      width: 300px;
+      width: 250px;
       margin: 40px auto;
     }
   }

@@ -5,7 +5,7 @@
         <h1>ШКОЛА КРАСИВОЙ РЕЧИ</h1>
         <span>ШКОЛА ЮЛИИ БИЗНЕСВУМЕН</span>
       </div>
-      <base-button :href="'#feedback'">Записаться</base-button>
+      <base-button class="mobile" :href="'#feedback'">Записаться</base-button>
 
       <link-icon style="margin: 0 auto" :blockID="'#feedback'"/>
     </div>
@@ -101,6 +101,18 @@ export default {
       position: relative;
       top: 0;
       text-align: center;
+    }
+
+    .promo {
+      padding-top: 0px;
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    .text-wrapper {
+      padding-bottom: 50px;
     }
   }
 </style>

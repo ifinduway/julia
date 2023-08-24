@@ -45,7 +45,7 @@ export default {
  .button {
   border-radius: 50px;
   display: flex;
-  color: #fff;
+  color: #fff !important;
   justify-content: center;
   align-items: center;
   font-size: 20px;

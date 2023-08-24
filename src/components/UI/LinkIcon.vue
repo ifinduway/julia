@@ -36,9 +36,9 @@ export default {
   }
 
   @media(max-width:425px) {
-    .link-icon {
+    /* .link-icon {
       display: none;
-    }
+    } */
   }
 </style>
   
