@@ -2,7 +2,7 @@
   <div class="container feedback" id="feedback">
     <h2>ЗАПИШИСЬ НА ПРОБНОЕ ЗАНЯТИЕ (ДЕНЬГИ ТОЛЬКО ПЛАТИТЬ НАДА БУДЕТ &#128516;)</h2>
     <form class="feedback-form" @click.prevent="sendMessage">
-      <base-input rulesType="text" :mask="'####-####'" :placeholder="'Промокод'" v-model="promoCode"/>
+      <!-- <base-input rulesType="text" :mask="'####-####'" :placeholder="'Промокод'" v-model="promoCode"/> -->
       <base-input :placeholder="'Имя ребенка'" v-model="childName"/>
       <base-input type="number" :placeholder="'Возраст ребенка'" v-model="age"/>
       <base-input :placeholder="'Имя родителя'" v-model="parentName"/>
@@ -64,7 +64,7 @@ export default {
     sendMessage() {
       if (this.isReadyToSend) {
           const data = {
-          text: `Промо код: ${this.promoCode}\nИмя ребенка: ${this.childName}\nВозраст: ${this.age}\nИмя родитея: ${this.parentName}\nНомер телефона: ${this.phone}`,
+          text: `Имя ребенка: ${this.childName}\nВозраст: ${this.age}\nИмя родитея: ${this.parentName}\nНомер телефона: ${this.phone}`,
           chat_id: this.telegramSettings.chatID,
           parse_mode: 'html'
         }

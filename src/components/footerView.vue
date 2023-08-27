@@ -7,7 +7,6 @@
       <div class="contacts">
         <h2>НАШИ КОНТАКТЫ:</h2>
         <a class="telephone">+ 7 (999) 999-99-99</a>
-        <a class="telephone">+ 7 (999) 999-99-99</a>
         <div class="telephone">Брянск, Рославльская, д.9</div>
         <div class="telephone">test@test.ru</div>
       </div>
@@ -45,11 +44,16 @@ export default {
   .footer__content {
     width: 50%;
     height: 1024px;
-    background-color: #97c455;
+    background-color: #B298C8;
+    color: #fff;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 100px;
+  }
+
+  .footer__content .contacts {
+    padding-bottom: 20px;
   }
 
   .map {

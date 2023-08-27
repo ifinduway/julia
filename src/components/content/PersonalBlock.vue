@@ -68,7 +68,7 @@ props: {
     width: 100%;
     padding: 80px 50px;
     padding-top: 200px;
-    background-color: #97c455;
+    background-color: #B298C8;
     border-radius: 48px;
     color: #fff;
     margin-top: -120px;

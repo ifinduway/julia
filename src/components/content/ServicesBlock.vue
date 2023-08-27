@@ -84,7 +84,7 @@ export default {
   }
 
   .pink {
-    color: rgb(226, 35, 98);
+    color: #fff;
     font-weight: bold;
   }
 

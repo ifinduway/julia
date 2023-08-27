@@ -74,7 +74,7 @@ export default {
     width: 100%;
     height: 70px;
     border-radius: 50px;
-    background-color: #e22362;
+    background-color: #B298C8;
   }
 
   @media(max-width: 768px) {

@@ -63,23 +63,23 @@ export default {
   data: () => ({
     popups: [
       {
-        img: '@/assets/kek.jpg',
+        img: 'https://sun9-79.userapi.com/impg/o0-JqMx26LmFGYz5tNrH4LIfy9bxmaSCbCXy-w/0CvDDpYa17w.jpg?size=1152x1319&quality=95&sign=cb75ed7e3a6026306b3338ac208e4ab3&type=album',
         title: 'От 9 до 1.5 лет'
       },
       {
-        img: '@/assets/kek.jpg',
+        img: 'https://sun9-79.userapi.com/impg/o0-JqMx26LmFGYz5tNrH4LIfy9bxmaSCbCXy-w/0CvDDpYa17w.jpg?size=1152x1319&quality=95&sign=cb75ed7e3a6026306b3338ac208e4ab3&type=album',
         title: 'От 9 до 1.5 лет'
       },
       {
-        img: '@/assets/kek.jpg',
+        img: 'https://sun9-79.userapi.com/impg/o0-JqMx26LmFGYz5tNrH4LIfy9bxmaSCbCXy-w/0CvDDpYa17w.jpg?size=1152x1319&quality=95&sign=cb75ed7e3a6026306b3338ac208e4ab3&type=album',
         title: 'От 9 до 1.5 лет'
       },
       {
-        img: '@/assets/kek.jpg',
+        img: 'https://sun9-79.userapi.com/impg/o0-JqMx26LmFGYz5tNrH4LIfy9bxmaSCbCXy-w/0CvDDpYa17w.jpg?size=1152x1319&quality=95&sign=cb75ed7e3a6026306b3338ac208e4ab3&type=album',
         title: 'От 9 до 1.5 лет'
       },
       {
-        img: '@/assets/kek.jpg',
+        img: 'https://sun9-79.userapi.com/impg/o0-JqMx26LmFGYz5tNrH4LIfy9bxmaSCbCXy-w/0CvDDpYa17w.jpg?size=1152x1319&quality=95&sign=cb75ed7e3a6026306b3338ac208e4ab3&type=album',
         title: 'От 9 до 1.5 лет'
       },
     ]
@@ -123,14 +123,14 @@ export default {
 
     width: 45px;
     height: 45px;
-    background: url('https://static.tildacdn.com/tild3536-3461-4563-a436-383034383963/checkbox-marked-circ.svg');
+    background: url('../assets/check.svg');
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .about {
     color: #fff;
-    background-color: #97c455;
+    background-color: #B298C8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,7 +151,7 @@ export default {
   .schedule {
     padding: 100px 0 !important;
     color: #fff;
-    background-color: #97c455;
+    background-color: #B298C8;
     display: flex;
     flex-direction: column;
     align-items: center;

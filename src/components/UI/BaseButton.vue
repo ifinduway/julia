@@ -1,5 +1,5 @@
 <template>
-  <input type="submit" class="button" :style="style" v-scroll-to="href" value="ОТПРАВИТЬ">
+  <input type="submit" class="button" :style="style" v-scroll-to="href" value="УЗНАТЬ">
 </template>
 
 <script>
@@ -24,7 +24,7 @@ export default {
 
     background: {
       type: String,
-      default: '#e22362',
+      default: '#62ccff',
     },
 
     href: {
@@ -53,7 +53,7 @@ export default {
  }
  
  .button:hover {
-  background-color: #97c455 !important;
+  background-color: #B298C8 !important;
   transition-property: background-color;
   transition-duration: 0.30s;
   transition-delay: 0;
